@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "WorkHardTravelHardApp",
-    "slug": "WorkHardTravelHardApp",
+    "slug": "workhardtravelhard",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pottq577.workhardtravelhard"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pottq577.workhardtravelhard"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a9067910-eece-4a92-9baf-31dffd822803"
+      }
+    },
+    "owner": "pottq577"
   }
 }
